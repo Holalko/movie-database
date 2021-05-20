@@ -1,44 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Project instructions
+Create a simple movie application in React. The application should consist of 3 pages:
 
-## Available Scripts
+Movie search
+Page should contain search input field with search button on the top of the page. When user submits the search, all search results should be displayed under the search input field. Please consider paging or endless scrolling of search results. ✓
+API example, search for “Batman”: http://omdbapi.com/?apikey=[YOUR-API-KEY]&s=Batman ✓
+Movie detail ✓
+Page should contain all information for selected movie (title, year, genre, poster, etc.) Next to the title should be “star” icon. When User clicks on the icon, movie will be added to favorites. ✓
+API example, search for concrete movie details: http://omdbapi.com/?apikey=[YOUR-API-KEY]&i=tt0372784 ✓
+My favorite movies: ✓
+Page should contain list of favorite movies. User should be able to navigate to movie detail and remove movie from favorites. ✓
 
-In the project directory, you can run:
 
-### `yarn start`
+Requirements
+Use OMDb API to fetch all necessary data. No back-end required! ✓
+Use up to date features of Ecmascript or Typescript ✓ 
+Pick one open-source component library such as Ant Design, Material UI, etc. ✓ - react-bootstrap
+Use react-router for page navigation ✓
+Use redux for data management ✓ 
+Use redux-saga,redux-observable for dealing with side effects ✓ 
+Store favorite movies in browser’s storage ✓
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Nice to have
+Use create-react-app as your starting boilerplate ✓
+Deploy your solution and share the link
